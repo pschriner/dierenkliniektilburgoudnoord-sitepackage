@@ -1,0 +1,27 @@
+
+
+<header class="top">
+	<f:link.page pageUid="1" class="logo"><img src="/fileadmin/templates/images/TilburgOudNoord_25t.png" /></f:link.page>
+	<f:link.page pageUid="1"><h1>Dierenkliniek Tilburg Oud Noord</h1></f:link.page>
+	<label class="menu-button-container" for="menu-toggle">
+		<div class="menu-button"></div>
+	</label>
+</header>
+<div class="container">
+<nav>
+	<f:render section="Menu" />
+</nav>
+<main>
+<f:render section="Main" />
+</main>
+</div>
+
+<f:render section="Footer" />
+
+<link rel="stylesheet" href="/typo3conf/ext/dierenkliniektilburgoudnoord_sitepackage/Resources/Public/JavaScript/glightbox/css/glightbox.css">
+<script type="module">
+	import '/typo3conf/ext/dierenkliniektilburgoudnoord_sitepackage/Resources/Public/JavaScript/glightbox/js/glightbox.js';
+	const lightbox = GLightbox({
+		selector : '[data-lightbox]'
+	});
+</script>
