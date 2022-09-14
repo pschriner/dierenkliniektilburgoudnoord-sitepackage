@@ -269,7 +269,6 @@ nav input {
 	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 }
-
 @media screen and (max-width: 40.5em) {
 	aside {
 		display: none;
@@ -322,15 +321,18 @@ nav input {
 
 	nav menu {
 		display: none;
+		margin-bottom: 1em;
 	}
 
 	nav input:checked+*,
 	nav input:checked+*+* {
 		display: block;
 	}
+	nav li.active:before {
+		left: -0.7em;
+	}
 	#primary {
 		border-right: 1px solid #AF1E30;
-		margin-bottom: 1em;
 	}
 
 	.menu-button-container {
