@@ -18,9 +18,10 @@
 
 <f:render section="Footer" />
 
-<link rel="stylesheet" href="/typo3conf/ext/dierenkliniektilburgoudnoord_sitepackage/Resources/Public/JavaScript/glightbox/css/glightbox.css">
+
+<link rel="stylesheet" href="{f:uri.resource(path: 'JavaScript/glightbox/css/glightbox.css',  extensionName: 'DierenkliniektilburgoudnoordSitepackage')}" />">
 <script type="module">
-	import '/typo3conf/ext/dierenkliniektilburgoudnoord_sitepackage/Resources/Public/JavaScript/glightbox/js/glightbox.js';
+	import '{f:uri.resource(path: "JavaScript/glightbox/js/glightbox.js", extensionName: "DierenkliniektilburgoudnoordSitepackage")}';
 	const lightbox = GLightbox({
 		selector : '[data-lightbox]'
 	});
