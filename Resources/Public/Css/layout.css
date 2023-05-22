@@ -31,6 +31,7 @@ body {
 	font-size: 16px;
 	background-color: #FFFCFC;
 	margin: 0 auto;
+	
 }
 
 header.top h1 {
@@ -64,6 +65,8 @@ footer a:hover {
 
 html {
 	box-sizing: border-box;
+	overflow-y: auto;
+	scrollbar-gutter: stable both-edges;
 }
 
 *,
