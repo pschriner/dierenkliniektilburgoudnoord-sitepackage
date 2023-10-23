@@ -1,39 +1,49 @@
 body {
 	font-family: Arial;
+	font-size: 16px;
+	background-color: #FFFCFC;
 }
-h1, h2, h3, h4, h5 {
-	text-align:center;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	text-align: left;
+	font-weight: bold;
+	margin: 1em 0;
 }
-.htmlarea-content-body {
-	line-height: 20px;
-	font-size:16px;
-}
+
 span.missing,
 p.missing {
-	color:red;
+	color: red;
 }
-th, td {
-	border:1px solid black;
-	padding:5px;
+
+th,
+td {
+	border: 1px solid black;
+	padding: 5px;
 }
+
 table {
 	border-collapse: collapse;
 }
 
 table.left {
-	margin-right:auto;
-	margin-left:0px;
+	margin-right: auto;
+	margin-left: 0px;
 }
 
 table.center {
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 table.right {
-	margin-right:0px;
-	margin-left:auto;
+	margin-right: 0px;
+	margin-left: auto;
 }
+
 table.withoutBorder {
-	border-width:0;
+	border-width: 0;
 }
