@@ -1,4 +1,4 @@
 #
 # BACKENDLAYOUTS
 #
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts" extensions="tsconfig">
+@import 'EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts/*.tsconfig'

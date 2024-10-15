@@ -1,7 +1,6 @@
 #
 # PageTS for dierenkliniektilburgoudnoord
 #
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TsConfig/Page/RTE.tsconfig">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TsConfig/Page/TCEFORM.tsconfig">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">
+@import 'EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TsConfig/Page/RTE.tsconfig'
+@import 'EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TsConfig/Page/TCEFORM.tsconfig'
+@import 'EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig'

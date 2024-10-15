@@ -7,4 +7,4 @@ $GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['dierenkliniektilburgoudnoord'] = 
 /***************
  * PageTS
  */
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TsConfig/Page/All.tsconfig">');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig("@import 'EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TsConfig/Page/All.tsconfig'");
