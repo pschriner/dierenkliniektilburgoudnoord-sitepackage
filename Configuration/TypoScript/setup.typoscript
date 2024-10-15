@@ -1,13 +1,13 @@
 ######################
 #### DEPENDENCIES ####
 ######################
-@import 'FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
 
 
 ################
 #### HELPER ####
 ################
-@import 'FILE:EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TypoScript/Helper/DynamicContent.typoscript'
+@import 'EXT:dierenkliniektilburgoudnoord_sitepackage/Configuration/TypoScript/Helper/DynamicContent.typoscript'
 
 
 ##############
